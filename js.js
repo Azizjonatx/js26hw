@@ -1,6 +1,5 @@
 var number =prompt('Hohlagan soningizni kiriting');
 var numberA = number % 2
- 
 if (numberA == 0) {
     alert('Kiritgan soningiz juft')
 }
@@ -18,8 +17,6 @@ else {
 
 var number = +prompt('Sonni kiriting')
 var extent = +prompt('Darajani kiriting')
-
-
 if (isNaN(number) || isNaN(extent) || number == 0 || extent == 0) {
     alert('Iltimos faqat son kiriting va kiritgan soningiz 0 dan baland bo\'lsin')
 }
