@@ -13,3 +13,16 @@ else if (number < 0) {
 else {
     alert('Kiritgan soningiz toq')
 }
+
+
+
+var number = +prompt('Sonni kiriting')
+var extent = +prompt('Darajani kiriting')
+
+
+if (isNaN(number) || isNaN(extent) || number == 0 || extent == 0) {
+    alert('Iltimos faqat son kiriting va kiritgan soningiz 0 dan baland bo\'lsin')
+}
+else {alert(number ** extent)
+}
+
